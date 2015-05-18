@@ -1,0 +1,225 @@
+/* CSS Document */
+.left {
+	float: left;	
+}
+
+.clear {
+	float: none;
+	clear: both;	
+}
+
+#fuse {
+	position: relative;
+	left: -10px;	
+}
+
+#header {
+	width: 100%;
+	background-color: #000;	
+}
+
+#curtain {
+	background-image: url(../../img/curtain.jpg);
+	background-size: 100%;	
+}
+
+
+#nav_facebook {
+	position: relative;
+	top: -5px;
+	padding-bottom: 0px;	
+	color: #3b5998;
+}
+
+#nav_facebook:hover {
+	color: #ffffff;	
+}
+
+.feature_ernie {
+	padding-top: 10px;
+	font-size: 12px;	
+}
+
+@media (min-width: 768px) {
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1  {
+    width: 100%;
+  }
+}
+ 
+@media (min-width: 992px) {
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1 {
+    width: 14.285714285714285714285714285714%;
+	  padding-right: 3px;
+	  padding-left: 3px;	
+	  padding-bottom: 4px;
+  }
+}
+ 
+@media (min-width: 1200px) {
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1 {
+    width: 14.285714285714285714285714285714%;
+	  padding-right: 3px;
+	  padding-left: 3px;	
+	  padding-bottom: 15px;	
+  }
+	.colorkey {
+		position: relative; 
+		top: 8px;	
+	}  
+}
+
+#month {
+	font-weight: bold;
+	font-size: 24px;
+	padding-bottom: 3px;	
+}	
+
+#calendar .fest-day {
+	border: 1px solid #000;	
+	background-color: #fff;
+	font-size: 18px;
+}
+
+#calendar .fest-date {
+	border-bottom: 1px solid #000;	
+	text-align: center;
+	background-color: #fff;
+	font-weight: bold;
+}
+
+#calendar .event {
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 14px;
+	border-bottom: 1px solid #000;	
+	border-top: 1px solid #000;	
+	text-align: center;
+	background-color: #fff;
+	padding: 3px 0px;
+	cursor: pointer;
+}
+#calendar .event-name, #calendar .event-time {
+	cursor: pointer;	
+}
+
+
+
+.productionbox {
+  background-color: #99ff99 !important;
+}
+.fest-day .productionbox:hover {
+	background-color: #66ff66 !important;
+}
+
+.readingbox {
+  background-color: #FECDCD !important;
+}
+
+.fest-day .readingbox:hover {
+	background-color: #FFADAD !important;
+}
+
+.workshopbox {
+  background-color: #7EB6E2 !important;
+}
+
+.workshopbox:hover {
+  background-color: #2EB6E2 !important;
+}
+
+.partybox {
+  background-color: #FEFFD7 !important;
+}
+
+.fest-day .partybox:hover {
+	background-color: #FEFFa7 !important;
+}
+
+
+
+#calendar {
+	display: none;	
+}
+
+#events {
+	display: none;	
+}
+
+#footer {
+	margin-top: 20px;
+	background-color: #000;	
+}
+
+#footer_curtain {
+	height: 50px;
+	background-image: url(../../img/curtain.jpg);
+	background-size: 100%;	
+	background-position: bottom;
+}
+
+
+.work {
+	background-color: #dedede;	
+	text-align: center;
+	line-height: 18px;
+	padding-bottom: 5px;
+	cursor: pointer;
+}
+.work_title {
+	font-size: 16px;
+	line-height: 20px;	
+	padding: 4px 0;
+	font-weight: bold;
+}
+
+.work_image {
+	padding-top: 8px;
+}
+
+.work_type {
+	font-size: 10px;
+	font-style: italic;	
+}
+
+#map_canvas {
+	width: 800px;
+	height: 500px;
+}
+
+#fh_address {
+	padding-top: 15px;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;	
+}
+
+.popup_top_left {
+	width: 250px;
+}
+
+.popup_top_right {
+	text-align: center;	
+	width: 330px;
+}
+
+.popup_title {
+	font-size: 20px;
+	font-weight: bold;	
+}
+
+.popup_credits {
+	font-size: 12px;
+	line-height: 14px;	
+}
+
+.popup_description {
+	padding: 10px 10px 0 20px;
+	font-size: 12px;
+	line-height: 14px;
+	text-align: left;	
+}
